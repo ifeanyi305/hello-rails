@@ -16,7 +16,7 @@ const Greeting = () => {
     <div>
       <h1>Greetings</h1>
       {
-        message.loading ? (<p>loading</p>) : (
+        message.loading ? (<p>loading...</p>) : (
           <h1>{message.greet.message}</h1>
         )
       }
