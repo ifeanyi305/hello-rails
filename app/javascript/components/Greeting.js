@@ -11,7 +11,6 @@ const Greeting = () => {
     }, [dispatch]
   );
   const message = useSelector((state) => state.greeting)
-  console.log(message)
   return (
     <div>
       <h1>Greetings</h1>
